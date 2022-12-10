@@ -17,7 +17,8 @@ function App(){
             
           <div className="main-emoji-container" style={{backgroundColor:emojiColor, transform:`rotate(${emojideg*3.6}deg)`}}>
           <div className="main-emoji"style={{fontSize:`${emojiSize *2}px`}}>
-            {emoji}</div>
+            {emoji}
+            </div>
         </div>
         <div className="emoji-container">
           
@@ -27,7 +28,7 @@ function App(){
           <div className="emoji-item" onClick={()=>{setEmoji('🎀')}}>🎀</div>
           <div className="emoji-item" onClick={()=>{setEmoji('😎')}}>😎</div>
                  
-           </div>
+            </div>
 
  
           </div>
